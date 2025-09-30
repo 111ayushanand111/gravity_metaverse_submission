@@ -2,7 +2,7 @@ from ursina import *
 
 app = Ursina()
 
-player = Entity(model='cube', color=color.azure, scale=(1,2,1), collider='box')
+player = Entity(model='cube', color=color.blue, scale=(1,2,1), collider='box')
 player_speed = 5
 
 camera.parent = player
@@ -34,3 +34,4 @@ def input(key):
             door_open = True
 
 app.run()
+
